@@ -1,0 +1,84 @@
+.main{
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 15px;
+    border: solid 1px lightgray;
+}
+.calInput{
+    width: 100%;
+    border: solid 1px lightgray;
+
+}
+#inputNumber{
+    width: 80%;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px 0;
+    border: none;
+}
+#inputNumber:focus{
+    outline: none;
+}
+.calactions{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px  0;
+}
+
+.NumbersandEqual{
+    display: flex;
+    align-items: center;
+}
+.actionButton{
+    width: 101px;
+    padding: 15px;
+    margin: 5px 5px 5px 0;
+    border: none;
+    background-color: #C8C6C6;
+    border: solid 2px #C8C6C6;
+
+}
+.actionButton:hover{
+    background-color: #F7F6F2;
+    border: solid 2px #C8C6C6;
+
+}
+.calnumbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+.numberbutton{
+    width: 30%;
+    padding: 15px;
+    margin: 5px 5px 5px 0;
+    background-color: #F7F6F2;
+    border: none;
+}
+.numberbutton:hover{
+    background-color: #C8C6C6;
+}
+#equalbuttondiv{
+    width: 20%;
+}
+#equalButton{
+    width: 80%;
+    padding: 92% 15px;
+    background-color: #4B6587;
+    border: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main {
+      width: 90%;
+    }
+  }
